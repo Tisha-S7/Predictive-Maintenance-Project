@@ -66,6 +66,6 @@ if submitted:
 
     st.markdown("---")
     if prediction == 1:
-        st.error("❗ <b>Maintenance Required</b>", icon="⚠️")
+        st.error("❗ Maintenance Required", icon="⚠️")
     else:
-        st.success("✅ <b>No Maintenance Needed</b>", icon="✅")
+        st.success("✅ No Maintenance Needed", icon="✅")
