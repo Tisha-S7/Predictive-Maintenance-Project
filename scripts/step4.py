@@ -52,3 +52,5 @@ print("\n🔹 Classification Report:\n", classification_report(y_test, y_pred))
 # Save model
 joblib.dump(model, 'outputs/maintenance_model.pkl')
 print("\n✅ Model saved as 'maintenance_model.pkl' in outputs folder.")
+
+print(df['maintenance_required'].value_counts())

@@ -60,9 +60,13 @@ if submitted:
     }])
     
     input_data = input_data[model.feature_names_in_]
+    st.write("🔍 Input sent to model:", input_data)
+
 
     # Predict
     prediction = model.predict(input_data)[0]
+    st.write("Raw model output:", prediction)
+
 
     st.markdown("---")
     if prediction == 1:
